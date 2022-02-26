@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/marcus/esp-idf/esp-idf-v4.4/components/bootloader/subproject",
+    "build_dir":          "/home/marcus/eclipse-workspace/WT32-SC01/build/bootloader",
+    "config_file":        "/home/marcus/eclipse-workspace/WT32-SC01/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/marcus/esp-idf/esp-idf-v4.4/components/efuse/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/esp32/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/esp_common/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/esp_hw_support/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/esp_system/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/freertos/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/hal/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/log/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/newlib/Kconfig;/home/marcus/esp-idf/esp-idf-v4.4/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/marcus/esp-idf/esp-idf-v4.4/components/bootloader/Kconfig.projbuild;/home/marcus/esp-idf/esp-idf-v4.4/components/esp_rom/Kconfig.projbuild;/home/marcus/esp-idf/esp-idf-v4.4/components/esptool_py/Kconfig.projbuild;/home/marcus/esp-idf/esp-idf-v4.4/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/marcus/esp-idf/esp-idf-v4.4/components/bootloader", "/home/marcus/esp-idf/esp-idf-v4.4/components/bootloader_support", "/home/marcus/esp-idf/esp-idf-v4.4/components/efuse", "/home/marcus/esp-idf/esp-idf-v4.4/components/esp32", "/home/marcus/esp-idf/esp-idf-v4.4/components/esp_common", "/home/marcus/esp-idf/esp-idf-v4.4/components/esp_hw_support", "/home/marcus/esp-idf/esp-idf-v4.4/components/esp_rom", "/home/marcus/esp-idf/esp-idf-v4.4/components/esp_system", "/home/marcus/esp-idf/esp-idf-v4.4/components/esptool_py", "/home/marcus/esp-idf/esp-idf-v4.4/components/freertos", "/home/marcus/esp-idf/esp-idf-v4.4/components/hal", "/home/marcus/esp-idf/esp-idf-v4.4/components/log", "/home/marcus/esp-idf/esp-idf-v4.4/components/bootloader/subproject/main", "/home/marcus/esp-idf/esp-idf-v4.4/components/bootloader/subproject/components/micro-ecc", "/home/marcus/esp-idf/esp-idf-v4.4/components/newlib", "/home/marcus/esp-idf/esp-idf-v4.4/components/partition_table", "/home/marcus/esp-idf/esp-idf-v4.4/components/soc", "/home/marcus/esp-idf/esp-idf-v4.4/components/spi_flash", "/home/marcus/esp-idf/esp-idf-v4.4/components/xtensa", "" ]
+}
